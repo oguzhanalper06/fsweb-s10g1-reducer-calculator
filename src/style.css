@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 * {
   box-sizing: border-box;
 }
@@ -11,7 +14,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-  background: #574b90;
+  background: #504f58;
 }
 
 code {
@@ -24,7 +27,7 @@ code {
 }
 
 .form-control {
-  border-color: #6c5ce7 !important;
+  border-color: #68619e !important;
 }
 
 button,
@@ -58,7 +61,7 @@ button:hover {
 }
 
 button:active {
-  background-color: #8393dd !important;
+  background-color: #142366 !important;
 }
 
 .ce_button .col-xs-4 {
@@ -92,7 +95,7 @@ button:active {
   justify-content: space-between;
   background-color: black;
   color: white;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: bold;
   padding: 5px 15px;
 }
